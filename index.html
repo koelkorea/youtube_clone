@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube Moblie</title>
+    <script src="https://kit.fontawesome.com/0150a3ee2f.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+</head>
+<!-- 
+    # 참고할만한 사이트
+        1. font awesome : 쓸만한 아이콘 찾는 서비스 제공
+        2. color Tool : 아이콘에 적용할 rgb값 조합값 제공  
+        3. google font : 글자 폰트 관련
+        4. color picker : 구글 확장프로그램으로 참고할 페이지의 색상의 rgb를 알수 있음
+-->
+<body>
+    <!-- Youtube header -->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+    
+    <!-- video 관련 -->
+    <section class="player">
+        <video controls src="video/video.mp4"></video>
+    </section>
+
+    <div class="infoAndUpNext">
+
+        <!-- video 정보 항목 -->
+        <section class="info">
+            <div class="metadata">
+                <!-- hash tag -->
+                <ul class="hashtags">
+                    <li>#Sadam</li>
+                    <li>#Osama Bin Ladan</li>
+                    <li>#SNL</li> 
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title clamp"> 
+                        Saturday Night Live - SNL short>> TV Funhouse: Saddam and Osama - Saturday Night Live
+                    </span>
+                    <button class="moreBtn">
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                </div>
+                <span class="views">1M views 1month ago</span>
+            </div>
+
+            <!-- Action 영역 -->
+            <ul class="actions">
+                <li>
+                    <button>
+                        <i class="active fas fa-thumbs-up"></i>
+                        <span>1K</span>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fas fa-thumbs-down"></i>
+                        <span>0</span>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fas fa-share"></i>
+                        <span>Share</span>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fas fa-plus"></i>
+                        <span>Save</span>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fab fa-font-awesome-flag"></i>
+                        <span>Report</span>
+                    </button>
+                </li>
+            </ul>
+            <!-- channel Description 영역-->
+            <div class="channel">
+                <div class="metadata">
+                    <img src="image/store-1919713.png" alt="" />
+                    <div class="info">
+                        <span class="name">LSH</span>
+                        <span class="subscribers">1M subscribers</span>
+                    </div>
+                </div>
+                <button class="subscribe">subscribe</button>
+            </div>
+        </section>
+
+        <!-- 다음 영상 정보 항목 -->
+        <section class="upNext">
+            <span class="title">Up next</span>
+            <ul>
+                <li class="item">
+                    <div class="img">
+                        <img src="image/1.png" alt="">
+                    </div>
+                    <div class="itemInfo">
+                        <span class="title">클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS, Javascript</span>
+                        <span class="name">LSH</span>
+                        <span class="views">1M views</span>
+                    </div>
+                    <button class="moreBtn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </li>
+                <li class="item">
+                    <div class="img">
+                        <img src="image/2.png" alt="">
+                    </div>
+                    <div class="itemInfo">
+                        <span class="title">클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS, Javascript</span>
+                        <span class="name">LSH</span>
+                        <span class="views">1M views</span>
+                    </div>
+                    <button class="moreBtn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </li>
+                <li class="item">
+                    <div class="img">
+                        <img src="image/3.png" alt="">
+                    </div>
+                    <div class="itemInfo">
+                        <span class="title">클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS, Javascript</span>
+                        <span class="name">LSH</span>
+                        <span class="views">1M views</span>
+                    </div>
+                    <button class="moreBtn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+
+</body>
+</html>
